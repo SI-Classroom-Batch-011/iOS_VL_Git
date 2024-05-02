@@ -6,4 +6,8 @@ extension Int {
     var squared: Int {
         self * self
     }
+
+    var isEven: Bool {
+        self % 2 == 0
+    }
 }
